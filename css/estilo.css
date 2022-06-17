@@ -1,0 +1,52 @@
+html {
+    cursor: url(/projeto_mata_moscas/img/mata_mosca.png) 30 30, auto;
+}
+
+body {
+    background-image: url(/projeto_mata_moscas/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.painel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 190px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.vida {
+    float: left;
+}
+
+.tempo {
+    float: left;
+}
+
+.mosquito1 {
+    width: 25px;
+    height: 25px;
+}
+
+.mosquito2 {
+    width: 60px;
+    height: 60px;
+}
+
+.mosquito3 {
+    width: 150px;
+    height: 150px;
+}
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
